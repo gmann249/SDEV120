@@ -1,0 +1,50 @@
+// This pseudocode is intended to compute the number
+// of miles per gallon you get with your automobile
+start
+define milesDriven
+define gallonsOfGasUsed
+define mpg
+	input milesDriven
+	input gallonsOfGasUsed	
+	mpg = milesDriven / gallonsOfGasUsed
+	output  mpg
+end
+
+
+
+// This pseudocode is intended to describe
+// computing the daily cost of your rent
+// in a 30-day month
+start
+define monthlyRent
+define dailyRent
+	input monthlyRent
+	dailyRent = monthlyRent / 30
+	output dailyRent
+end
+
+
+
+// This program accepts a user's monthly pay
+// and rent, utilities, and grocery bills
+// and displays the amount available for discretionary spending
+// (which might be negative)
+// Your program should output the pay and the total bills
+// as well as the remaining discretionary amount
+start
+define monthlyPay
+define monthlyRent
+define utilitiesCost
+define groceryCost
+define discretionarySpending
+define totalBills
+	input monthlyRent
+	input utilitiesCost
+	input groceryCost
+	totalBills = monthlyRent + utlilitesCost + groceryCost
+	output totalBills
+
+	input monthlyPay
+	discretionarySpending = monthlyPay - totalBills
+	output discretionarySpending
+end
