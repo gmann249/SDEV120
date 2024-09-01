@@ -1,0 +1,23 @@
+// This program determines a monthly checking account fee
+
+start
+
+declarations
+	num startingAccountBalance = 0.00
+	num newAccountBalance = 0.00
+	num timesOverDrawn = 0
+	num overDrawnFee = 0.00
+
+print "Please enter account balance"
+input StartingAccountBalance
+print "Please enter amount of times account was overdrawn"
+input timesOverDrawn
+
+num overDrawnFee = startingAccountBalance * 0.01 + (5.00 * timesOverDrawn)
+newAccountBalance = startingAccountBalance - overDrawnFee
+
+print overDrawnFee
+print newAccountBalance
+print "Thanks for using this program"
+
+stop
