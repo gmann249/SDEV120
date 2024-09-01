@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="OGN3r8aMjgUUhGqWFDry">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yrI33mHccbUxywsIvplT-3" value="This program is designed to calculate the charges for Hazel&#39;s Housecleaning service&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75.62" y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-4" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160.62" y="90" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-8" value="declarations&lt;div&gt;string lastName&lt;/div&gt;&lt;div&gt;num otherRooms&lt;/div&gt;&lt;div&gt;num bathrooms&lt;/div&gt;&lt;div&gt;num totalCost&lt;/div&gt;&lt;div&gt;num serviceCharge = 40&lt;/div&gt;&lt;div&gt;num bathroomCost&lt;/div&gt;&lt;div&gt;num otherRoomCost&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99.99" y="160" width="211.25" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrI33mHccbUxywsIvplT-4" target="yrI33mHccbUxywsIvplT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-11" value="print &quot;please enter last name&quot;&lt;div&gt;print &quot;please enter number of other rooms&quot;&lt;/div&gt;&lt;div&gt;print &quot;please enter number of bathrooms&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="57.809999999999995" y="320" width="295.62" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrI33mHccbUxywsIvplT-8" target="yrI33mHccbUxywsIvplT-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-13" value="rooms and bathrooms are variables that tell how many normal rooms and how many bathrooms the client wants Hazel to clean" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="322.81" y="205" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-16" value="input lastName&lt;div&gt;input otherRooms&lt;/div&gt;&lt;div&gt;input bathrooms&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="125.62" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrI33mHccbUxywsIvplT-11" target="yrI33mHccbUxywsIvplT-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-18" value="otherRoomCost = otherRooms * 10&lt;div&gt;bathroomCost = bathrooms * 15&lt;/div&gt;&lt;div&gt;totalCost = serviceCharge + otherRoomCost + bathroomCost&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="331.24" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrI33mHccbUxywsIvplT-16" target="yrI33mHccbUxywsIvplT-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-22" value="print lastName&lt;div&gt;print bathrooms&lt;/div&gt;&lt;div&gt;print bathroomCost&lt;/div&gt;&lt;div&gt;print otherRooms&lt;/div&gt;&lt;div&gt;print otherRoomCost&lt;/div&gt;&lt;div&gt;print serviceCharge&lt;/div&gt;&lt;div&gt;print totalCost&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="95.62" y="720" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrI33mHccbUxywsIvplT-18" target="yrI33mHccbUxywsIvplT-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-24" value="print &quot;Thank you for choosing Hazel&#39;s Housecleaning Service&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="88.43" y="880" width="234.38" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrI33mHccbUxywsIvplT-22" target="yrI33mHccbUxywsIvplT-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-26" value="stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="142.18" y="1040" width="126.88" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yrI33mHccbUxywsIvplT-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yrI33mHccbUxywsIvplT-24" target="yrI33mHccbUxywsIvplT-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
