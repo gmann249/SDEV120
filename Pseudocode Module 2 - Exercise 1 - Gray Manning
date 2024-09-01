@@ -1,0 +1,25 @@
+// This program is designed to calculate the capacity (cubic ft) of a refrigerator model the user inputs
+
+start
+
+declarations
+	inches_to_feet = 1728
+	num heightIn
+	num widthIn
+	num depthIn
+	string refrigeratorModelName
+	num capacityIn
+	num capacityFt
+
+input refrigeratorModelName
+input height
+input width
+input depth
+
+capacityIn = heightIn * widthIn * depthIn
+capacityFt = capacityIn / inches_to_feet
+
+print refrigeratorModelName
+print capacity Ft
+
+stop
