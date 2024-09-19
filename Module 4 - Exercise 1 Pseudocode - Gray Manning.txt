@@ -13,14 +13,14 @@ while number <> 0
 	if number > 100
 		output "error"
 		input number
-	if number <> final number
+	if number <> finalNumber
 		output "guess again"
 		if number > 50
 		output "guess lower"
 		if number < 50
 		output "guess higher"
 		input number
-	if number = final number
+	if number = finalNumber
 	output "correct"
 	output "end program"
 endwhile
