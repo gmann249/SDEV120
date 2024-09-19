@@ -1,0 +1,28 @@
+// This program is a number guessing game for a number between 1-100 After each guess, the player is told that the guess is too high or //too low. The process continues until the player guesses the correct number.
+
+Start
+   Declarations
+   finalNumber = 50
+   num number
+output "enter number a number between 1 and 100 or enter 0 to quit"
+input number
+while number <> 0
+	if number < 0
+		output "error"
+		input number
+	if number > 100
+		output "error"
+		input number
+	if number <> final number
+		output "guess again"
+		if number > 50
+		output "guess lower"
+		if number < 50
+		output "guess higher"
+		input number
+	if number = final number
+	output "correct"
+	output "end program"
+endwhile
+if number equals 0, quit program
+stop
