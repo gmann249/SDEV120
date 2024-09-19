@@ -1,0 +1,19 @@
+// This program is designed to look up a word in the dictionary
+
+
+Start
+   Declarations
+   string finalWord 
+// finalWord is the word we're trying to look up in the dictionary
+   string pageWord
+// pageWord is the word that appears when we flip to a random page
+finalWord = Hat
+
+input "flip to a random page"
+input pageWord
+while pageWord <> finalWord
+	if first letter of finalWord is less than first letter of pageWord,then flip to page earlier in book
+	if first letter of finalWord is greater than first letter of pageWord, then flip to page later in book
+endwhile
+output finalWord "you found the page"
+stop
