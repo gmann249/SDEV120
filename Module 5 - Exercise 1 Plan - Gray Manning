@@ -1,0 +1,22 @@
+Jeopardy Plan
+
+The user is a contestant
+To keep it simple we’ll just do 2 categories with 3 questions each. They have 30 seconds to answer while the jeopardy song plays. The answer will be phrased as “what is” +the answer. 
+
+Category 1: Countries 
+Level 100: This country has the Statue of Liberty.
+Answer : What is USA
+Level 200: This country has The Great Wall.
+Answer: What is China
+Level 300: This country has Mt. Everest
+Answer: What is Nepal
+
+Category 2: States
+Level 100: This state has the Indy 500
+Answer: What is Indiana
+Level 200: This state has Disney World
+Answer: What is Florida
+Level 300: This state has the St. Louis Arch
+Answer: What is Missouri 
+
+The program will prompt the user to pick a level: 100, 200, or 300. Those will be selection statements. 
