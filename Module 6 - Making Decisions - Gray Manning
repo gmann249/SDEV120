@@ -1,0 +1,43 @@
+start
+declarations
+    num baseFee = 5.00
+    num firstFee = 0.02
+    num secondFee = 0.03
+    num messages_sent
+    num taxRate = 0.14
+    num area_code
+    num phone_num
+    num pretax_bill
+    num posttax_bill
+output “Please enter your area code”
+input area_code
+while area_code > 999 or < 100 
+    output “Error, please only enter a 3 digit number”
+    input area_code
+output “Please enter your phone number”
+input phone_num
+while phone_num >9999999 or <1000000
+    output “Error, please only enter a 7 digit number”
+    input phone_num
+output “Please enter your total number of messages sent last month”
+input messages_sent
+while messages_sent <0 or >300
+    output “Error, please only enter a number between 0 and 300”
+    input messages_sent
+if messages_sent > 100
+    if messages_sent > 300
+        pretax_bill = baseFee + (messages_sent *.02)
+        posttax_bill = pretax_bill + (pretax_bill * taxRate)
+    else
+// the else here is for messages sent between 100 and 300 
+        pretax_bill = baseFee + (messages_sent *.03)
+        posttax_bill = pretax_bill + (pretax_bill * taxRate)
+else 
+    pretax_bill = baseFee
+    posttax_bill = baseFee + (baseFee * taxRate)
+print area_code + phone_num
+// this is not an arithmetic operation, this is just printing the 2 variables next to each other without spaces
+print messages_sent
+print pretax_bill
+print posttax_bill
+end
